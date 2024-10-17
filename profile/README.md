@@ -39,11 +39,21 @@
 
 ### 프로젝트 아키텍쳐
 
-<img src="" alt="Project pingpong_wireframe" width="600">
-
+<img src="https://github.com/pingpong-works/.github/blob/main/assets/architecture.png?raw=true" alt="Project pingpong_wireframe" width="600">
 <br>
 
-- 
+- Front-end : 클라이언트의 요청이 들어오면 API Gateway에서 로드밸런서에서 Round Robin 방식으로 순서대로 Front Application 에 보내지게 됩니다.
+Front Application 은 필요한 요청을 API Gateway 를 통해 처리합니다.
+프론트엔드는 Thymeleaf, HTML, CSS, Javascript로 구현되어 있으며, 사용자 인증 및 권한 관리를 위해 Spring Security와 JWT를 사용합니다.
+
+
+- API - Gateway : API Gateway는 Spring Cloud Gateway를 이용하여 구현되었으며, 클라이언트의 요청을 받아 해당 요청을 처리할 서비스로 라우팅합니다.
+또한 Spring Cloud Netflix Eureka Client를 사용하여 유레카 서버로부터 서비스 인스턴스 정보를 검색하고, JWT를 활용하여 인증된 요청만을 허용합니다.
+Access 토큰이 만료된 경우, Refresh 토큰과 비교를 통해 요청을 Auth 서버로 보내 토큰 재발급을 받고, 원래 요청을 수행하도록 구현하였습니다.
+
+
+- Eureka : Eureka 서버는 Spring Cloud Netflix Eureka를 통해 서비스들의 인스턴스 정보를 등록하고 관리합니다. 이를 통해 서비스 디스커버리 및 로드 밸런싱이 가능하며, Gateway는 유레카 서버를 통해 서비스의 위치를 동적으로 찾을 수 있습니다.
+
 <br>
 
 ### 개발환경
@@ -64,7 +74,7 @@
     - JPA
       - QueryDsl
  - 데이터베이스
-    - MySQL: 8.0.25
+    - MySQL
     - Redis
     - Postgresql
     - Mongo
@@ -85,7 +95,12 @@
     - GitHub
  - 기타
    - Slack
-  
+
+### 개발언어
+
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+
 ### 사용도구
 
 <span>
@@ -98,13 +113,22 @@
   <br>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white"/>
+  <br>
+
+  ### Messaging
+
+  <span>
+  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=ApacheKafka&logoColor=white"/>
+  <img src="https://img.shields.io/badge/WebSocket-4D4D4D?style=for-the-badge&logo=websocket&logoColor=white"/>
+  </span>
+
   <br>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
   <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=ReactQuery&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/>
   <br>
-  <img src="https://img.shields.io/badge/Github Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
 </span>
 
@@ -175,14 +199,14 @@ Github Kanban
 ---
 <br/>
 
-## 김준하
+## 신민준
 
 
 
 ---
 <br/>
 
-## 방승욱
+## 남채연
 
 
 ---
