@@ -1,4 +1,4 @@
-https://www.figma.com/deck/0jZrRSnrXrvnOk94DKPGYI
+https://www.figma.com/deck/0jZrRSnrXrvnOk94DKPGYI/Untitled?node-id=64-634&node-type=slide&t=Plz2XXgwsm0JlVMd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
 
 ## PINGPONG
 
