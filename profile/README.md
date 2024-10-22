@@ -146,8 +146,8 @@ Access 토큰이 만료된 경우, Refresh 토큰과 비교를 통해 요청을
 </span>
 
 
-### ERD
-<img src ="https://github.com/user-attachments/assets/6ab844f1-fcb8-480d-90b9-62a2bf8189f8" width=500/>
+### [ERD](https://dbdiagram.io/d/Copy-of-Untitled-Diagram-6701a9a8fb079c7ebd7469db)
+<img src ="https://github.com/user-attachments/assets/6ab844f1-fcb8-480d-90b9-62a2bf8189f8" width=1713 alt="image" />
 
 <br>
 
@@ -156,7 +156,7 @@ Github Kanban
 - Github의 Project 기능 중 Kanban 보드를 활용하여 프로젝트를 관리했습니다.
 - Todo, InProgress, Done 의 열로 작업을 구분해 현재 작업 상황을 실시간으로 확인할 수 있도록 했습니다.
 
-<img width="1713" alt="image" src="">
+<img width="1713" alt="image" src="https://github.com/user-attachments/assets/a513b853-54ef-483d-ad7d-bbf2518e924d">
 <br>
 
 ### 🔍서비스 구현 내용
@@ -205,8 +205,27 @@ Github Kanban
 
 | 일정 조회 | 채팅 |
 | :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/14cacd65-015c-4a6c-b892-45e80a06780c" width="370" height="200"/> |
+
+| 근태관리 | 전자결재 템플릿 생성 |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/29844864-f028-4af4-986b-1092bbad5924" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/ccec61b7-db39-41a0-938f-06b72d1e4eaa" width="370" height="200"/> |
+
+| 전자결재 템플릿 수정 | 전자결재 템플릿 삭제 |
+| :---: | :---: |
 | <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
 
+| 전자결재 조회 | 전자결재 삭제 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 전자결재 작성1 | 전자결재 작성2 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 전자결재 승인 | 전자결재 반려 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
 
 | 알림-전자결재 알림 | 알림-승인자 알림  |
 | :---: | :---: |
@@ -220,34 +239,34 @@ Github Kanban
 ### 구성원 별 담당 내용
 
 ## 박혜지
-
+[알림, 전자결재, 근태관리]
 
 
 ---
 <br/>
 
 ## 김준하
-
+[직원, 관리자, Spring Security]
 
 
 ---
 <br/>
 
 ## 양수명
-
+[메일 서버 구축, 메일 송수신, 데이터 관리]
 
 ---
 <br/>
 
 ## 방승욱
-
+[게시판, 일정, 자원 예약]
 
     
 ---
 <br/>
 
 ## 이광희
-
+[Gateway, Eureka]
 
 
 ---
@@ -263,6 +282,8 @@ Github Kanban
 
 ## 발표자료
 [pingpong-발표자료](https://www.figma.com/deck/0jZrRSnrXrvnOk94DKPGYI/Untitled?node-id=64-634&node-type=slide&t=Plz2XXgwsm0JlVMd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+
+
 
 ## 프로젝트 회고
 
