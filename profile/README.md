@@ -1,4 +1,4 @@
-https://www.figma.com/deck/0jZrRSnrXrvnOk94DKPGYI/Untitled?node-id=64-634&node-type=slide&t=Plz2XXgwsm0JlVMd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
+
 
 ## PINGPONG
 
@@ -7,7 +7,7 @@ https://www.figma.com/deck/0jZrRSnrXrvnOk94DKPGYI/Untitled?node-id=64-634&node-t
 - Spring Cloud를 활용하였습니다.
 - 
 - 개발 기간 : 2024.09.24 ~ 10.18
-- URL : https://pingpong-works.com
+- URL : https://pingpong-works.com (배포x)
 <br>
 
 ### 구성원
@@ -137,58 +137,18 @@ Access 토큰이 만료된 경우, Refresh 토큰과 비교를 통해 요청을
 
 <span>
   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white"/>
-  <br>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white">
-
-  
-</span>
-
-
-### ERD
-![image]()
-<br>
-
-### [Kanban Board](https://github.com/orgs/pingpong-works/projects/1)
-Github Kanban
-- Github의 Project 기능 중 Kanban 보드를 활용하여 프로젝트를 관리했습니다.
-- Todo, InProgress, Done 의 열로 작업을 구분해 현재 작업 상황을 실시간으로 확인할 수 있도록 했습니다.
-
-<img width="1713" alt="image" src="">
-<br>
-
-### 🔍서비스 구현 내용
-
-### 🕹주요 기능
-
-| 랜딩 페이지 | 회원가입 |
+  <img src="https://img.shields.io/badge/css3-1572B6?style=for-th려  |
 | :---: | :---: |
 | <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
 
-| 로그인 실패 및 성공 | 마이페이지 |
+| 알림-전자결재 알림 | 알림-승인자 알림  |
 | :---: | :---: |
 | <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
 
-|  게시글 작성  | 댓글 작성 |
+| 알림-일정 알림 | 알림-차량예약 알림  |
 | :---: | :---: |
 | <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
 
-| 게시판 | 메일 |
-| :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
-
-| 전자결재 | 채팅 |
-| :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
-
-|  예약 | 수락  |
-| :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
 
 
 ### 구성원 별 담당 내용
@@ -200,20 +160,20 @@ Github Kanban
 ---
 <br/>
 
-## 신민준
+## 김준하
 
-
-
----
-<br/>
-
-## 남채연
 
 
 ---
 <br/>
 
 ## 양수명
+
+
+---
+<br/>
+
+## 방승욱욱
 
 
     
@@ -234,6 +194,9 @@ Github Kanban
 
 ### API 명세서
 [pingpong-API명세서](https://docs.google.com/spreadsheets/d/1O87LmWl6mkqLLtPM1yqOCbKzsnxeVUi8hP7bycf31d8/edit?gid=646885922#gid=646885922)
+
+## 발표자료
+[pingpong-발표자료](https://www.figma.com/deck/0jZrRSnrXrvnOk94DKPGYI/Untitled?node-id=64-634&node-type=slide&t=Plz2XXgwsm0JlVMd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 
 ## 프로젝트 회고
 
