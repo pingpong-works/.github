@@ -1,11 +1,8 @@
-
-
 ## PINGPONG
 
 ### 프로젝트 소개
 - MSA 기반 그룹웨어 프로젝트 입니다.
 - Spring Cloud를 활용하였습니다.
-- 
 - 개발 기간 : 2024.09.24 ~ 10.18
 - URL : https://pingpong-works.com (배포x)
 <br>
@@ -137,9 +134,79 @@ Access 토큰이 만료된 경우, Refresh 토큰과 비교를 통해 요청을
 
 <span>
   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/css3-1572B6?style=for-th려  |
+  <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white"/>
+  <br>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white">
+  
+</span>
+
+
+### ERD
+<img src ="https://github.com/user-attachments/assets/6ab844f1-fcb8-480d-90b9-62a2bf8189f8" width=500/>
+
+<br>
+
+### [Kanban Board](https://github.com/orgs/pingpong-works/projects/1)
+Github Kanban
+- Github의 Project 기능 중 Kanban 보드를 활용하여 프로젝트를 관리했습니다.
+- Todo, InProgress, Done 의 열로 작업을 구분해 현재 작업 상황을 실시간으로 확인할 수 있도록 했습니다.
+
+<img width="1713" alt="image" src="">
+<br>
+
+### 🔍서비스 구현 내용
+
+### 🕹주요 기능
+
+| 로그인 | 메인페이지 |
 | :---: | :---: |
 | <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 관리자 페이지 | 부서 생성 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+|  직원 생성  | 직원정보 수정 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 부서별 직원조회 | 내 정보 수정 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 메일 작성 | 받은메일함 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 보낸 메일함 | 휴지통 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 게시판 작성 | 게시판 조회 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 게시글 조회 | 게시글 댓글 작성 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 게시글 수정/삭제 | 자원-차량관리 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 자원-회의실 관리 | 일정 등록 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
+| 일정 조회 | 채팅 |
+| :---: | :---: |
+| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+
 
 | 알림-전자결재 알림 | 알림-승인자 알림  |
 | :---: | :---: |
@@ -148,7 +215,6 @@ Access 토큰이 만료된 경우, Refresh 토큰과 비교를 통해 요청을
 | 알림-일정 알림 | 알림-차량예약 알림  |
 | :---: | :---: |
 | <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
-
 
 
 ### 구성원 별 담당 내용
@@ -173,7 +239,7 @@ Access 토큰이 만료된 경우, Refresh 토큰과 비교를 통해 요청을
 ---
 <br/>
 
-## 방승욱욱
+## 방승욱
 
 
     
