@@ -205,19 +205,19 @@ Github Kanban
 
 | 일정 조회 | 채팅 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/14cacd65-015c-4a6c-b892-45e80a06780c" width="370" height="200"/> |
+| <img src="" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/d31c4b23-0316-4358-9537-9295ae5a7b88" width="370" height="200"/> |
 
 | 근태관리 | 전자결재 템플릿 생성 |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/29844864-f028-4af4-986b-1092bbad5924" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/ccec61b7-db39-41a0-938f-06b72d1e4eaa" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/9f82f44a-8eb1-4a2c-bf21-2827ed10be0d" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/0601d246-480e-4bbf-ac7e-5985616e615f" width="370" height="200"/> |
 
 | 전자결재 템플릿 수정 | 전자결재 템플릿 삭제 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/f9bcffc7-1d31-41b1-8300-311b190fed47" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/195c03f2-e936-4f02-902d-96ffb2732825" width="370" height="200"/> |
 
-| 전자결재 조회 | 전자결재 삭제 |
+| 전자결재 타입조회 | 전자결재 삭제 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/fdbfc5c1-6e51-46bd-aa06-2d49b6729736" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/78bd91e3-fdbe-4b48-a700-b25eb74e45ba" width="370" height="200"/> |
 
 | 전자결재 작성1 | 전자결재 작성2 |
 | :---: | :---: |
@@ -233,7 +233,7 @@ Github Kanban
 
 | 알림-일정 알림 | 알림-차량예약 알림  |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/e562e877-1407-4796-a3d8-d2492022459d" width="370" height="200"/> | <img src="" width="370" height="200"/> |
 
 
 ### 구성원 별 담당 내용
