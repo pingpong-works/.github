@@ -12,11 +12,11 @@
 <table>
   <tbody>
     <tr width='100%'>
-      <th align="center" width='10%'>박혜지</th>
-      <th align="center" width='17%'>김준하</th>
-      <th align="center" width='14%'>양수명</th>
-      <th align="center" width='17%'>방승욱</th>
-      <th align="center" width='19%'>이광희</th>
+      <th align="center" width='20%'>박혜지</th>
+      <th align="center" width='20%'>김준하</th>
+      <th align="center" width='20%'>양수명</th>
+      <th align="center" width='20%'>방승욱</th>
+      <th align="center" width='20%'>이광희</th>
     </tr>
     <tr>
       <td align="center"><img width="100" alt="image" src="https://github.com/user-attachments/assets/51d6b43d-0e95-4f44-a19a-8ff4a44ae0d3"></td>
