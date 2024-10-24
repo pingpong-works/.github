@@ -2,10 +2,10 @@
 
 ### 프로젝트 소개
 - 중앙정보기술인재개발원 프로젝트 평가 - 대상 수상 🏆
-- MSA 기반 그룹웨어 프로젝트 입니다.
+- MSA 기반의 그룹웨어 프로젝트 입니다.
 - Spring Cloud를 활용하였습니다.
 - 개발 기간 : 2024.09.24 ~ 10.18
-- URL : https://pingpong-works.com (배포 x)
+- URL : https://pingpong-works.com
 <br>
 
 ### 구성원
@@ -26,11 +26,11 @@
       <td align='center'><img width="100" alt="image" src=""></td>
     </tr>
     <tr>
-      <td width="150"><a href="https://github.com/quokkavely">@quokkavely</a></td>
-      <td width="150"><a href="https://github.com/HJk29">@HJk29</a></td>
-      <td width="150"><a href="https://github.com/Lifesheep1">@Lifesheep1</a></td>
-      <td width="150"><a href="https://github.com/coding-Rhino">@coding-Rhino</a></td>
-      <td width="150"><a href="https://github.com/gwanghui97">@gwanghui97</a></td>
+      <td align="center" width="150"><a href="https://github.com/quokkavely">@quokkavely</a></td>
+      <td align="center" width="150"><a href="https://github.com/HJk29">@HJk29</a></td>
+      <td align="center" width="150"><a href="https://github.com/Lifesheep1">@Lifesheep1</a></td>
+      <td align="center" width="150"><a href="https://github.com/coding-Rhino">@coding-Rhino</a></td>
+      <td align="center" width="150"><a href="https://github.com/gwanghui97">@gwanghui97</a></td>
     </tr>  
   </tbody>
 </table>
