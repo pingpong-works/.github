@@ -219,22 +219,28 @@ Github Kanban
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/fdbfc5c1-6e51-46bd-aa06-2d49b6729736" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/78bd91e3-fdbe-4b48-a700-b25eb74e45ba" width="370" height="200"/> |
 
-| 전자결재 작성1 | 전자결재 작성2 |
+| 전자결재 작성 후 제출 | 전자결재 작성 후 임시저장 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/a5d5c490-8ff2-4a06-b400-9f128c79eb77" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/4758be32-ee56-459e-a3d5-3fcee1fcc2eb" width="370" height="200"/> |
+
+| 전자결재 다시작성 | 전자결재 상태별 조회 |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/886834c2-58f6-49dd-81c7-106d5ef79dee" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/4a9a14ec-4d7a-4d92-a00f-8f3b97d2f532" width="370" height="200"/> |
 
 | 전자결재 승인 | 전자결재 반려 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/d7f9ef96-481c-4b63-9027-d11740457919" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/dd526818-4d46-46a2-b24a-466222a3ec4d" width="370" height="200"/> |
 
 | 알림-전자결재 알림 | 알림-승인자 알림  |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/5e60637f-9aea-407f-a597-9dd8e18e904e" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/6ebafea4-534a-43ea-aed1-581c7b807b97" width="370" height="200"/> |
 
 | 알림-일정 알림 | 알림-차량예약 알림  |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/e562e877-1407-4796-a3d8-d2492022459d" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/e562e877-1407-4796-a3d8-d2492022459d" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/a31b6fa3-21f9-45f7-840b-eaec9fdaf627" width="370" height="200"/> |
 
+<br>
+<br>
 
 ### 구성원 별 담당 내용
 
