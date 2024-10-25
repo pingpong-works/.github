@@ -20,7 +20,7 @@
     </tr>
     <tr>
       <td align="center"><img width="100" alt="image" src="https://github.com/user-attachments/assets/51d6b43d-0e95-4f44-a19a-8ff4a44ae0d3"></td>
-      <td align='center'><img width="100" alt="image" src=""></td>
+      <td align='center'><img width="100" alt="image" src="https://github.com/user-attachments/assets/a0153d6c-1b8f-44be-aadd-9bcf7ae1f2ff"></td>
       <td align='center'><img width="120" alt="image" src=""></td>
       <td align='center'><img width="100" alt="image" src=""></td>
       <td align='center'><img width="100" alt="image" src=""></td>
@@ -179,19 +179,19 @@ Github Kanban
 
 | 로그인 | 메인페이지 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/e0d19bc9-9abd-41ce-b392-16b5becd49ba" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/3ffc9d43-187a-4b4b-bf5b-60ee59858391" width="370" height="200"/> |
 
 | 관리자 페이지 | 부서 생성 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/007cb3e2-20aa-475f-bd88-9ead7472a9c1" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/36aef486-65d4-42ea-8ecb-158f3e769bce" width="370" height="200"/> |
 
 |  직원 생성  | 직원정보 수정 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/8e8d5198-5bb7-493e-9e3e-46d5ab3d18d3" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/7ee974f8-a7f0-4181-8bda-5a1f391dc7bf" width="370" height="200"/> |
 
 | 부서별 직원조회 | 내 정보 수정 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/06b12ee2-6f51-427b-8abb-71f6ee500e1a" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/7ee974f8-a7f0-4181-8bda-5a1f391dc7bf" width="370" height="200"/> |
 
 | 메일 작성 | 받은메일함 |
 | :---: | :---: |
@@ -303,13 +303,47 @@ Github Kanban
 <br/>
 
 ## 김준하
-[직원, 관리자, Spring Security]
+[ Security, 직원 기능, 관리자 기능 ]
 
-> ### Security
+> ### Security [BE]
 
-> ### 직원 관리
+- Spring Security와 JWT를 사용해 사용자 인증 정보를 안전하게 관리
+- Redis를 활용해 세션 관리를 최적화하여 시스템의 성능 향상
 
----
+- 사용자 권한에 따라 일반 직원은 기본 정보만, 관리자는 모든 민감한 정보와 관리 기능에 접근할 수 있도록 설정
+
+- 로그인하지 않은 사용자가 특정 페이지에 접근하려고 할 때, 로그인 페이지로 자동으로 리다이렉트되도록 라우팅 기능 구현
+
+- Redis를 사용하여 세션 정보를 캐싱하고, JWT 토큰의 유효성을 검증하여 비정상적인 접근 시 즉시 차단할 수 있도록 설정
+
+> ### 직원 기능 [BE, FE]
+- 로그인/로그아웃
+    - 관리자가 발급한 이메일과 초기 비밀번호를 통해 직원들이 바로 로그인/로그아웃할 수 있도록 구현
+
+- 주소록
+    - 회사 내부 직원의 연락처와 활동 상태를 손쉽게 조회할 수 있도록 주소록 페이지 구현
+    - 로그인 상태를 기반으로 실시간으로 활동 상태를 확인 가능
+    - 부서별 필터링 기능을 추가해  효율적으로 필요한 직원의 정보 조회
+
+- 마이페이지
+    - 개인 프로필 정보 조회 기능
+    - 내 정보 수정 기능 
+    - 사용자가 주기적으로 비밀번호를 변경할 수 있도록 하여 보안을 강화.
+
+> ### 관리자 기능 [BE, FE]
+- 부서 관리
+    - 부서 생성 및 삭제
+    - 부서 목록과 각 부서의 직원 수를 조회하도록 구현
+
+- 직원 관리
+    - 직원 정보 수정(이름, 이메일, 부서, 직급)
+    - 퇴사자 계정 삭제
+- 주소록
+    - 일반 직원들이 조회할 수 있는 정보 외에도, 관리자는 직원 단일 조회 시 추가적인 민감한 정보를 확인할 수 있도록 구현
+
+
+> ### 그 외
+- 메인 페이지에서 사용자가 속한 부서의 직원들이 현재 활동 중인지, 비활동 중인지 빠르게 확인할 수 있는 목록을 구현.
 <br/>
 
 ## 양수명
@@ -375,7 +409,7 @@ Github Kanban
 <br>
 
 ### 김준하
-> 
+> MSA 방식의 개발은 처음이었기 때문에, 서비스 분할과 각 서비스의 역할을 명확히 정의하는 과정에서 많은 도전이 있었습니다. 특히, 개별 서비스들이 어떻게 유기적으로 동작하고 서로 협력해야 하는지를 이해하는 데 시간이 걸렸지만, 팀원들 모두 처음 도전하는 MSA였기에, 함께 공부하고 문제를 해결하는 과정에서 많은 성장을 경험할 수 있었습니다. 덕분에 새로운 개발 방법을 익히면서도, 협력의 힘으로 안정적이고 완성도 높은 결과물을 만들어낼 수 있었습니다. 이번 경험은 앞으로 더욱 도전적인 프로젝트를 수행하는 데 든든한 밑거름이 될 것입니다.
 
 <br>
 
