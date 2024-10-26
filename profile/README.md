@@ -21,9 +21,9 @@
     <tr>
       <td align="center"><img width="100" alt="image" src="https://github.com/user-attachments/assets/51d6b43d-0e95-4f44-a19a-8ff4a44ae0d3"></td>
       <td align='center'><img width="100" alt="image" src="https://github.com/user-attachments/assets/a0153d6c-1b8f-44be-aadd-9bcf7ae1f2ff"></td>
-      <td align='center'><img width="120" alt="image" src=""></td>
+      <td align='center'><img width="120" alt="image" src="https://github.com/pingpong-works/.github/blob/main/assets/yang.jpeg?raw=true"></td>
       <td align='center'><img width="100" alt="image" src=""></td>
-      <td align='center'><img width="100" alt="image" src=""></td>
+      <td align='center'><img width="100" alt="image" src="https://github.com/pingpong-works/.github/blob/main/assets/lee.jpg?raw=true"></td>
     </tr>
     <tr>
       <td align="center" width="150"><a href="https://github.com/quokkavely">@quokkavely</a></td>
@@ -379,7 +379,51 @@ Github Kanban
 <br/>
 
 ## 이광희
-[Gateway, Eureka, chat]
+[Chat, Gateway, Eureka]
+
+> ### Chat [FE, BE]
+
+### BE
+
+- Apache Kafka
+  - 분산형 스트리밍 플랫폼으로, 대규모 데이터 흐름을 처리하고 실시간으로 이벤트를 관리
+  - 데이터를 특정 토픽으로 구분하여 메시지를 게시하고 구독할 수 있어, 다양한 이벤트 소스를 효과적으로 관리
+  - 채팅 메시지를 디스크에 지속적으로 기록하여, 시스템 장애 발생 시에도 메시지 손실을 방지
+
+- Web Socket
+  - 실시간 채팅 기능을 구현하기 위해 WebSocket을 활용하여 클라이언트와 서버 간의 양방향 통신 지원
+
+- MongoDB
+  - 비정형 데이터를 효율적으로 저장하고 빠른 조회를 지원하는 MongoDB 사용
+  - 실시간으로 주고받은 채팅 메시지를 저장하기 위해 활용
+
+- Postgresql
+  - 정적 데이터 특성에 최적화되어 데이터 무결성을 보장하는 Postgresql 사용
+  - 유저 정보와 채팅방 정보를 저장하기 위한 관계형 데이터베이스를 활용한 설계
+
+### FE
+
+- 컴포넌트 설계
+  - Chat Container, Group Modal 등의 컴포넌트를 조합하여 채팅 기능을 구현
+
+- 상태 관리
+  - WebSocket 연결 상태, 메시지 기록, 참가자 데이터 관리
+
+> ### Gateway [BE]
+
+- 클라이언트 요청을 여러 마이크로서비스로 라우팅하여 중앙 집중식 관리
+    - API 호출 시 보안 검증을 통해 인증된 사용자만 접근 가능하도록 인증/인가 구현
+    - 여러 서비스 인스턴스에 요청을 분산시켜 성능과 안정성을 향상
+    - 여러 서비스로부터의 응답을 집계하여 클라이언트에게 단일 응답으로 전달
+    - API 요청 및 응답을 모니터링하고 로깅하여 성능 분석 및 문제 해결
+
+> ### Eureka [BE]
+
+- 분산된 서비스 관리를 위한 Service Discovery 기능을 수행하기 위한 Spring Netflix Eureka 서버 설정
+    - 클라이언트 애플리케이션이 Eureka 서버에 등록하여 자신의 존재를 알리고, 서비스 정보를 갱신
+    - 다른 클라이언트가 필요한 서비스의 정보를 Eureka 서버를 통해 조회
+    - 서비스 인스턴스가 실패할 경우 Eureka가 자동으로 해당 인스턴스를 감지하고, 클라이언트에게 최신 정보를 제공
+    - Eureka의 Service Registry 에 등록된 각 서비스 정보들을 기반으로 Gateway 에서 라운드 로빈 방식의 로드밸런싱이 이루어지도록 설정
 
 
 ---
@@ -423,6 +467,6 @@ Github Kanban
 <br>
 
 ### 이광희
-> 
+> 모놀리식의 아키텍처의 단점을 깨닫고 MSA 기반 프로젝트를 하고 싶어 팀원들에게 제안을 했습니다. 배우고자 하는 의지가 강한 팀원들이였기에 프로젝트 처음부터 공부를 각자 진행하며 서로 배운 내용을 공유하는 방식으로 진행했습니다. MSA 뿐만 아니라 대량의 데이터를 안정적이고 실시간으로 처리할 수 있는 Apache Kafka와 사용하지 않았던 데이터베이스까지 공부하며 적용하느라 고생 많았다고 전하고 싶습니다. 이번 프로젝트 경험을 토대로 실무에 가서 배우지 않고 어려운 기술도 잘 해낼 수 있는 엔지니어가 되었으면 좋겠습니다.
 
 <br>
