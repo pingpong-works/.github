@@ -22,7 +22,7 @@
       <td align="center"><img width="100" alt="image" src="https://github.com/user-attachments/assets/51d6b43d-0e95-4f44-a19a-8ff4a44ae0d3"></td>
       <td align='center'><img width="100" alt="image" src="https://github.com/user-attachments/assets/a0153d6c-1b8f-44be-aadd-9bcf7ae1f2ff"></td>
       <td align='center'><img width="120" alt="image" src="https://github.com/pingpong-works/.github/blob/main/assets/yang.jpeg?raw=true"></td>
-      <td align='center'><img width="100" alt="image" src=""></td>
+      <td align='center'><img width="100" alt="image" src="https://github.com/user-attachments/assets/eeca2938-2795-4e78-88bc-cde8fd9a8982"></td>
       <td align='center'><img width="100" alt="image" src="https://github.com/pingpong-works/.github/blob/main/assets/lee.jpg?raw=true"></td>
     </tr>
     <tr>
@@ -201,25 +201,21 @@ Github Kanban
 | :---: | :---: |
 | <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
 
-| 게시판 작성 | 게시판 조회 |
+| 게시글 작성 | 게시판 조회 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/411e812e-b7fd-40cf-bc46-31055d03e9b9" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/46fc724b-44a3-4c60-83e9-5b6266383852" width="370" height="200"/> |
 
-| 게시글 조회 | 게시글 댓글 작성 |
+| 게시글 조회, 수정, 삭제 | 게시글 댓글 작성, 수정, 삭제 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/c112b0b4-330b-43b4-9a19-6c956af7e885" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/1fcee90c-dce5-4501-8833-40525496311b" width="370" height="200"/> |
 
-| 게시글 수정/삭제 | 자원-차량관리 |
+| 자원-차량관리 | 자원-회의실 관리 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/edd40f63-4d69-412c-9a41-d58c94285023" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/dd287292-f488-4beb-9df6-00ac55ff307b" width="370" height="200"/> |
 
-| 자원-회의실 관리 | 일정 등록 |
+| 일정(자원 예약) 등록 | 일정(자원 예약) 조회, 수정, 삭제 |
 | :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="" width="370" height="200"/> |
-
-| 일정 조회 | 채팅 |
-| :---: | :---: |
-| <img src="" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/d31c4b23-0316-4358-9537-9295ae5a7b88" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/e67d0140-c529-42b7-b468-45468dcf1a4e" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/707e2f86-c304-482b-8c33-2ab2a6ee2d17" width="370" height="200"/> |
 
 | 근태관리 | 전자결재 템플릿 생성 |
 | :---: | :---: |
@@ -245,13 +241,18 @@ Github Kanban
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/d7f9ef96-481c-4b63-9027-d11740457919" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/dd526818-4d46-46a2-b24a-466222a3ec4d" width="370" height="200"/> |
 
-| 알림-전자결재 알림 | 알림-승인자 알림  |
+| 채팅 | 알림-전자결재 알림  |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/5e60637f-9aea-407f-a597-9dd8e18e904e" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/6ebafea4-534a-43ea-aed1-581c7b807b97" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/d31c4b23-0316-4358-9537-9295ae5a7b88" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/5e60637f-9aea-407f-a597-9dd8e18e904e" width="370" height="200"/> |
 
-| 알림-일정 알림 | 알림-차량예약 알림  |
+| 알림-승인자 알림 | 알림-일정 알림  |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/e562e877-1407-4796-a3d8-d2492022459d" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/a31b6fa3-21f9-45f7-840b-eaec9fdaf627" width="370" height="200"/> |
+| <img src="https://github.com/user-attachments/assets/6ebafea4-534a-43ea-aed1-581c7b807b97" width="370" height="200"/> | <img src="https://github.com/user-attachments/assets/e562e877-1407-4796-a3d8-d2492022459d" width="370" height="200"/> |
+
+| 알림-차량예약 알림 |
+|:------------------:|
+| <img src="https://github.com/user-attachments/assets/a31b6fa3-21f9-45f7-840b-eaec9fdaf627" width="370" height="200"/> |
+
 
 <br>
 <br>
@@ -344,6 +345,8 @@ Github Kanban
 
 > ### 그 외
 - 메인 페이지에서 사용자가 속한 부서의 직원들이 현재 활동 중인지, 비활동 중인지 빠르게 확인할 수 있는 목록을 구현.
+
+---
 <br/>
 
 ## 양수명
@@ -360,23 +363,29 @@ Github Kanban
 <br/>
 
 ## 방승욱
-[게시판, 일정, 자원 예약]
+[게시판, 일정(자원 예약), 자원 관리, AWS S3]
 
 > ### 게시판
--
+- QueryDSL을 활용하여 게시물의 키워드, 카테고리를 동시에 검색할 수 있어 사용자에게 원하는 정보를 제공
+- 게시물 정렬 기능을 통해 사용자에게 다양한 방식으로 게시물을 탐색할 수 있는 옵션을 제공
+- 페이지네이션을 통해 게시물 로딩 시 성능을 최적화를 하여 사용자에게 쾌적한 사용 환경을 제공
 
-> ### 일정
--
-
+> ### 일정(자원 예약)
+- 부서별 일정을 관리할 수 있도록 캘린더를 부서 단위로 나누고, 부서가 사라지면 해당 부서의 일정 데이터도 자동으로 삭제되도록 설정
+- 월별, 주별, 일별로 일정을 볼 수 있도록 다양한 뷰를 제공하여 사용자가 일정을 쉽게 파악할 수 있게 구현
+- 일정 등록 시 자원 예약도 가능하도록 하되, 이미 예약된 시간과 겹칠 경우 예약이 불가능하도록 구현
+- 현재 시간 이후의 일정은 일정 페이지의 Events 항목에 시간순으로 표시되어, 급한 일정을 확인 할 수 있음
 
 > ### 자원관리
--
+- 차량 등록 시 이미지와 해당 이미지의 설명을 함께 저장할 수 있도록, Map 구조를 활용한 엔티티 필드를 구현
 
-> ### 자원예약
--
-    
----
-<br/>
+> ### AWS S3
+- 서비스에서 필요한 이미지 파일을 AWS S3에 저장하여, 파일 관리를 효율적으로 하고 사용자에게 안정적인 파일 접근성을 제공
+- POST나 PATCH 요청을 통해 이미지가 추가 변경 되는 경우 요청 시 S3에 해당 이미지를 추가하거나 삭제하여 S3 저장소 최적화
+
+> ### 그 외
+- 직원 정보 수정 시 sideBar도 수정된 내용으로 렌더링되게 구현
+- 메인 페이지의 게시판, 캘린더 추가
 
 ## 이광희
 [Chat, Gateway, Eureka]
@@ -462,7 +471,7 @@ Github Kanban
 <br>
 
 ### 방승욱
-> 
+> 어려운 문제에 도전하는 것을 좋아하기에 이번 프로젝트를 통해 많은 성장을 이루며 즐겁게 진행했습니다. 모놀리식 아키텍처와 달리 MSA에서는 각자 본인의 서비스에 집중해 개발할 수 있어 Git 충돌 문제가 적고, 서비스마다 독립적으로 데이터베이스를 설정할 수 있다는 점이 인상 깊었습니다. 팀원들 또한 자신의 서비스를 구현하기 위해 각자의 역할에 최선을 다해 주었고, 덕분에 프로젝트를 성공적으로 마무리할 수 있어 매우 감사하게 생각합니다. 
 
 <br>
 
