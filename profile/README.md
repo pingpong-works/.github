@@ -21,7 +21,7 @@
     <tr>
       <td align="center"><img width="100" alt="image" src="https://github.com/user-attachments/assets/51d6b43d-0e95-4f44-a19a-8ff4a44ae0d3"></td>
       <td align='center'><img width="100" alt="image" src="https://github.com/user-attachments/assets/a0153d6c-1b8f-44be-aadd-9bcf7ae1f2ff"></td>
-      <td align='center'><img width="120" alt="image" src="https://github.com/pingpong-works/.github/blob/main/assets/yang.jpeg?raw=true"></td>
+      <td align='center'><img width="100" alt="image" src="https://github.com/pingpong-works/.github/blob/main/assets/yang.jpeg?raw=true"></td>
       <td align='center'><img width="100" alt="image" src="https://github.com/user-attachments/assets/eeca2938-2795-4e78-88bc-cde8fd9a8982"></td>
       <td align='center'><img width="100" alt="image" src="https://github.com/pingpong-works/.github/blob/main/assets/lee.jpg?raw=true"></td>
     </tr>
